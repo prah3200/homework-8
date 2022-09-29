@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px ;
+}
+
+.header {
+    border-bottom: 1px solid #EFEEF3;
+    padding-bottom: 25px;
+}
+
+.service {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+body{
+    font-family: 'Roboto';
+    color: #16133D;
+    margin: 0 auto;
+}
+
+.text-holder {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family:'Nunito Sans';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D; 
+    margin: 0 auto;   
+}
+
+.pseudo-title {
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+
+
+.btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+    text-decoration: none; 
+    margin-bottom: 30px;
+}
+
+.logo{    
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(61, 179, 112, 0.1);
+    border-radius: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.col {
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    width: 370px;
+    height: 340px;
+    padding: 40px;
+}
+
+.footer {
+    padding-top: -25px;
+    background-color: #16133D;
+    
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+    padding-bottom: 40px;
+}
+
+.logo-holder-white {
+    padding-bottom: 40px;
+}
+
+.icon {
+    background-image: url("../icon/icons-sprite.svg");
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 38px;   
+    display: inline-block;
+    padding: 0 10px;
+    transition: background-position ease-in-out 0.2s;
+}
+
+.icon.icon-insta {
+    background-position: -8px -5px;
+}
+
+.icon.icon-fb {
+    background-position: -46px -5px;
+}
+
+.icon.icon-git {
+    background-position: -80px -5px;
+}
+
+.icon.icon-dr {
+    background-position: -118px -5px;
+}
+
+.icon.icon-twiter {
+    background-position: -159px -5px;
+}
+
+.icon.icon-insta:hover {
+    background-position: -8px -45px;
+}
+
+.icon.icon-fb:hover {
+    background-position: -46px -45px;
+}
+
+.icon.icon-git:hover {
+    background-position: -80px -45px;
+}
+
+.icon.icon-dr:hover {
+    background-position: -118px -45px;
+}
+
+.icon.icon-twiter:hover {
+    background-position: -159px -45px;
+}
+
+.logo:hover #mann {
+    fill: #52C29D;
+}
+
+.logo:hover #dom {
+    fill: #52C29D;
+}
+
+.logo:hover #mobile {
+    fill: #52C29D;
+}
